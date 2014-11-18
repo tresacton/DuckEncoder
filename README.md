@@ -9,12 +9,10 @@ Tested with DuckEncoder (this app) running on an OSX host, and accessing it from
 
 ##Usage:
 ### Press the Choose File button to open your file browser 
-![Screenshot 1](https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck1.png "Screenshot 1")
+<img style="cursor: zoom-in;" src="https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck1.png" width="291" height="518">
 ### If using the app on an Android device: select your file browser, navigate to the ducky script you wish to use, and press "Create inject.bin" to encode the script
-![Screenshot 2](https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck2.png "Screenshot 2")
-### Check output from the encoder tool and click the download link if you are satisfied with the results
-![Screenshot 3](https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck3.png "Screenshot 3")
-
+<img style="cursor: zoom-in;" src="https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck2.png" width="291" height="518">### Check output from the encoder tool and click the download link if you are satisfied with the results
+<img style="cursor: zoom-in;" src="https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck3.png" width="291" height="518">
 ##Installation Instructions
 Run the following commands from your terminal:
 <pre><code>
