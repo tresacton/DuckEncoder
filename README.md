@@ -15,10 +15,10 @@ Tested with DuckEncoder (this app) running on an OSX host, and accessing it from
 ### Check output from the encoder tool and click the download link if you are satisfied with the results
 <img style="cursor: zoom-in;" src="https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck3.png" width="291" height="518">
 ##Installation Instructions
-Requires: 
-Ruby 2
-Rails 4
-Bundler
+####Requires: 
+#####Ruby 2
+#####Rails 4
+#####Bundler
 
 Run the following commands from your terminal:
 <pre><code>
