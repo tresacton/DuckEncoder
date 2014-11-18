@@ -33,3 +33,7 @@ Navigate to the app like you would any other web app. For example, if accessing 
 http://127.0.0.1:3000
 
 Enjoy.
+
+
+
+## If you have found this tool to be useful, please feel free to make a bitcoin donation to: 15ELxpFFeeQXokzXzjJuk6iwr1q7r9cjTz
