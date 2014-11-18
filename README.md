@@ -1,15 +1,35 @@
-== README
+#DuckEncoder README
 
-A RoR app as a simple GUI wrapper for the Duck Encoder. 
-Configure it to serve remotely and you have a way of encoding ducky scripts on a portable device with a browser and file system. 
+Note: I spent a grand total of 10 minutes making this app, and most of that was initialising an empty Rails application. This app is very simple in nature. It does not have or use a database, it doesn't employ any authentication (although devise gem is in the gemfile waiting for your configuration if you so desire). Just want to make sure we're all on the same page here in terms of expectations =)
 
-Tested with DuckEncoder (this app) running on an OSX host, and accessing it from an Android client via web browser. 
+A Ruby on Rails app designed to be a simple GUI wrapper for the Duck Encoder. 
+This is not a replacement for the hak5 encoder, but it can serve as a simple wrapper for the encoder. If you choose to do so, you may serve remotely for an easy way to encode your ducky scripts on a portable device such as your Android phone / tablet.
 
-Screenshots from Android Phone:
+Tested with DuckEncoder (this app) running on an OSX host, and accessing it from an Android client via web browser. It should work on Linux. Windows paths might not work correctly. When I have another few minutes I might come back and make sure the paths are actually OS agnostic.
 
+##Usage:
+### Press the Choose File button to open your file browser 
+![Screenshot 1](https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck1.png "Screenshot 1")
+### If using the app on an Android device: select your file browser, navigate to the ducky script you wish to use, and press "Create inject.bin" to encode the script
+![Screenshot 2](https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck2.png "Screenshot 2")
+### Check output from the encoder tool and click the download link if you are satisfied with the results
+![Screenshot 3](https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck3.png "Screenshot 3")
 
-{<img src="Duck1.png">}[https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck1.png]
+##Installation Instructions
+Run the following commands from your terminal:
+<pre><code>
+git clone https://github.com/tresacton/DuckEncoder.git
+cd DuckEncoder
+bundle install
+</code></pre>
+Once you have done installed the app, you need to tell it where your Hak5 encoder is located. To do this, edit the file config/config.yml with the correct path.
 
-{<img src="Duck2.png">}[https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck2.png]
+You can now launch the app
+<pre><code>
+rails s -p 3000 # or any port you prefer
+</code></pre>
 
-{<img src="Duck3.png">}[https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck3.png]
+Navigate to the app like you would any other web app. For example, if accessing the app locally, type the following into your browser:
+http://127.0.0.1:3000
+
+Enjoy.
