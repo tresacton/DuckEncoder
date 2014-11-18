@@ -1,0 +1,2 @@
+module InjectorHelper
+end

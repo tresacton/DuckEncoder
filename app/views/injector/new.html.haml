@@ -1,0 +1,8 @@
+%div
+  = form_for :injector, :url => injector_create_path, html: { multipart: true } do |f| 
+    = f.label "Select Ducky Script"
+    %br 
+    = f.file_field :ducky_script 
+    %p
+    = f.submit "Create inject.bin", class: "btn btn-primary" 
+  
