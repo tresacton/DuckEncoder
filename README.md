@@ -38,6 +38,20 @@ http://127.0.0.1:3000
 
 Enjoy.
 
+####### Alternate instsallation script, provided by Darren from Hak5, to help resolve some Ubuntu dependencies to get this running:
 
+<pre><code>
+apt-get install curl
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+source ~/.rvm/scripts/rvm
+git clone https://github.com/tresacton/DuckEncoder.git
+cd DuckEncoder
+gem install turbolinks -v '2.5.2'
+gem install execjs
+gem install therubyracer
+sudo apt-get install nodejs
+bundle install
+rails s -p 8000
+</code></pre>
 
 ## If you have found this tool to be useful, please feel free to make a bitcoin donation to: 15ELxpFFeeQXokzXzjJuk6iwr1q7r9cjTz
