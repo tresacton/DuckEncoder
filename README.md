@@ -7,6 +7,8 @@ This is not a replacement for the hak5 encoder, but it can serve as a simple wra
 
 Tested with DuckEncoder (this app) running on an OSX host, and accessing it from an Android client via web browser. It should work on Linux. Windows paths might not work correctly. When I have another few minutes I might come back and make sure the paths are actually OS agnostic.
 
+A demo has been produced by Darren from Hak5 and is available here: http://hak5.org/episodes/hak5-1716
+
 ##Usage:
 ### Press the Choose File button to open your file browser 
 <img style="cursor: zoom-in;" src="https://raw.githubusercontent.com/tresacton/DuckEncoder/master/ReadmeAssets/Duck1.png" width="291" height="518">
